@@ -1,0 +1,13 @@
+{
+    "name": "weather-app",
+    "scripts": {
+        "start": "nodemon main.js"
+    },
+    "dependencies": {
+        "express": "4.17.1",
+        "superagent": "6.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.14"
+    }
+}
