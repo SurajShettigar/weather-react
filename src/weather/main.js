@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const constants = require('./constants');
-const weather = require('./weather/weather');
+const weather = require('./weather');
 
 app.use(express.static(constants.SERVER_STATIC_PUBLIC_DIR));
 

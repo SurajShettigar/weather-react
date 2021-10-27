@@ -1,8 +1,8 @@
 const superagent = require('superagent');
 const path = require('path');
 
-const constants = require('../constants');
-const secret = require('../secret');
+const constants = require('./constants');
+const secret = require('./secret');
 
 
 function getCurrentWeather(city, units='metric', callback) {
